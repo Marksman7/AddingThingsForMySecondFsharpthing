@@ -1,0 +1,12 @@
+open System
+
+let provideLife x y =
+    x + y
+
+[<EntryPoint>]
+let main argv =
+
+
+    let r = provideLife 4 7 
+    printfn "I am alive but not %d" r
+    0
